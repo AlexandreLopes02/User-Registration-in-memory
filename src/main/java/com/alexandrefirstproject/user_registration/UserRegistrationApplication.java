@@ -1,5 +1,6 @@
 package com.alexandrefirstproject.user_registration;
 
+import com.alexandrefirstproject.user_registration.model.User;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,6 +14,7 @@ public class UserRegistrationApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Projeto iniciado.");
+		User user = new User("Alex", "a@b.com", 22, "123456");
+		System.out.println(user);
 	}
 }
