@@ -25,3 +25,14 @@ O objetivo é criar um sistema simples de **cadastro de usuários em memória**,
 ---
 
 ## 📂 Estrutura do Projeto
+src
+└── main
+└── java
+└── com.alexandrefirstproject.user_registration
+├── model
+│ └── User.java
+├── service
+│ └── UserService.java
+├── controller
+│ └── UserController.java # (opcional nesse projeto)
+└── UserRegistrationApplication.java
